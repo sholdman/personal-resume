@@ -11490,6 +11490,10 @@ section.resume-section .resume-section-content {
   padding: 1rem;
 }
 
+.mobile-only {
+  display: none !important;
+}
+
 @media screen and (max-width: 768px) {
   .project-pic-container {
     /* display: flex; */
@@ -11503,7 +11507,8 @@ section.resume-section .resume-section-content {
   }
 } 
 
-@media screen and (max-width: 420px) {
+
+@media screen and (max-width: 428px) {
   .project-pic-container {
     /* display: flex; */
     align-items: center; 
@@ -11513,5 +11518,12 @@ section.resume-section .resume-section-content {
   .project-pic-desktop-version{
     width: 20rem;
     height: 60%;
+  }
+
+  .mobile-only {
+    display: block !important;
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-bottom: 1rem;
   }
 } 
