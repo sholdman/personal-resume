@@ -11503,7 +11503,7 @@ section.resume-section .resume-section-content {
   }
 } 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 428px) {
   .project-pic-container {
     /* display: flex; */
     align-items: center; 
