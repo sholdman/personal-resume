@@ -11507,6 +11507,9 @@ section.resume-section .resume-section-content {
   }
 } 
 
+.mobile-only {
+  display: none !important;
+}
 
 @media screen and (max-width: 428px) {
   .project-pic-container {
