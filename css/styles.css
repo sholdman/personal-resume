@@ -11462,7 +11462,13 @@ section.resume-section .resume-section-content {
 }
 
 .project-pic-mobile-version{
-  width: 10rem;
+  width: 10.5rem;
+  height: 20rem;
+  padding: 0.5rem;
+}
+
+.project-pic-tablet-version{
+  width: 15rem;
   height: 20rem;
   padding: 0.5rem;
 }
